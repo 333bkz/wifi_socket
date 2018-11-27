@@ -18,7 +18,7 @@ public class ClientActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_client);
         ipEt = findViewById(R.id.ipEt);
-        ipEt.setText("192.168.43.1");
+        ipEt.setText("192.168.**.**");
         msgEt = findViewById(R.id.msgEt);
 
         findViewById(R.id.connectBtn).setOnClickListener(new View.OnClickListener() {
